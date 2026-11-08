@@ -10,10 +10,10 @@ on:
       - ".github/workflows/pages.yml"
   workflow_dispatch:
 
-# ИНЦИДЕНТ 2: прав для публикации пока недостаточно (нет id-token: write).
 permissions:
   contents: read
   pages: write
+  id-token: write
 
 concurrency:
   group: pages
