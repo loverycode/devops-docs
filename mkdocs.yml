@@ -1,0 +1,13 @@
+site_name: DevOps Operations Handbook
+site_description: Учебная документация по проверке и публикации изменений
+site_author: "Зырянова А.А."
+repo_name: loverycode/devops-docs
+repo_url: https://github.com/loverycode/devops-docs
+theme:
+  name: mkdocs
+  locale: ru
+
+nav:
+  - Главная: index.md
+  - Эксплуатация: runbook.md
+  - Журнал инцидентов: incidents.md
